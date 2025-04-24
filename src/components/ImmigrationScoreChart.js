@@ -45,7 +45,7 @@ const ImmigrationScoreChart = () => {
     { month: 'Apr 2025 (pred)', FW: 53, IS: 70, MG: 54, PhD: 46, isPrediction: true },
     { month: 'May 2025 (pred)', FW: 52, IS: 72, MG: 55, PhD: 47, isPrediction: true },
     { month: 'Jun 2025 (pred)', FW: 50, IS: 73, MG: 55, PhD: 48, isPrediction: true },
-  };
+  ];
 
   const getCustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
@@ -182,7 +182,7 @@ const ImmigrationScoreChart = () => {
             <YAxis domain={getYDomain()} />
             <Tooltip content={getCustomTooltip} />
             <Legend />
-            <ReferenceLine x="Mar 2025" stroke="#ff0000" strokeDasharray="3 3" />
+            <ReferenceLine x="Apr 2025" stroke="#ff0000" strokeDasharray="3 3" />
             {getProgramLines()}
           </LineChart>
         </ResponsiveContainer>
