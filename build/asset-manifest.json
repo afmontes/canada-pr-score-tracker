@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/canada-pr-score-tracker/static/css/main.fc27c289.css",
+    "main.js": "/canada-pr-score-tracker/static/js/main.e9dd6ac3.js",
+    "index.html": "/canada-pr-score-tracker/index.html",
+    "main.fc27c289.css.map": "/canada-pr-score-tracker/static/css/main.fc27c289.css.map",
+    "main.e9dd6ac3.js.map": "/canada-pr-score-tracker/static/js/main.e9dd6ac3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc27c289.css",
+    "static/js/main.e9dd6ac3.js"
+  ]
+}
